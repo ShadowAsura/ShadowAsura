@@ -1,10 +1,10 @@
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -14,17 +14,38 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-      - name: GitHub City
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.skyline.city.svg
-          token: NOT_NEEDED
-          base: ""
+
+          # Options
+          user: shadowasura
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Los_Angeles
+          plugin_anilist: yes
+          plugin_anilist_limit: 2
+          plugin_anilist_limit_characters: 22
+          plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites
+          plugin_anilist_shuffle: yes
+          plugin_anilist_user: shadowasura
+          plugin_music: yes
+          plugin_music_limit: 4
+          plugin_music_mode: top
+          plugin_music_provider: spotify
+          plugin_music_time_range: short
+          plugin_music_top_type: tracks
+          plugin_music_user: 61ka7xprm7zeylppok85f6v34
           plugin_skyline: yes
-          plugin_skyline_year: 2020
-          plugin_skyline_frames: 6
-          plugin_skyline_quality: 1
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
           plugin_skyline_settings: |
             {
               "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
@@ -32,3 +53,11 @@ jobs:
               "wait": 4,
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
+          plugin_skyline_year: current-year
+          plugin_steam: yes
+          plugin_steam_achievements_limit: 2
+          plugin_steam_games_limit: 1
+          plugin_steam_playtime_threshold: 2
+          plugin_steam_recent_games_limit: 1
+          plugin_steam_sections: player, most-played, recently-played
+          plugin_steam_user: 76561199074289549
