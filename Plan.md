@@ -28,4 +28,14 @@
 <li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=10&amp;poid=9238&amp;returnto=4818#">CS 160 - Software Engineering</a></li>
 <li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=10&amp;poid=10435&amp;returnto=4818#/usr/local/webroot/acalog-legacy/shared/htdocs_gateway/ajax/preview_course.php">CS 156 - Introduction to Artificial Intelligence</a></li>
 </ul>
+<p>Extra</p>
+<ul>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=10&amp;poid=9238&amp;returnto=4818#tt6817">CS 131 - Processing Big Data - Tools and Techniques</a></li>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=13&amp;poid=7663&amp;returnto=4963#/usr/local/webroot/acalog-legacy/shared/htdocs_gateway/ajax/preview_course.php">CS 134 - Computer Game Design and Programming</a></li>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=13&amp;poid=7663&amp;returnto=4963#">CS 136 - Introduction to Computer Vision</a></li>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=13&amp;poid=7663&amp;returnto=4963#/usr/local/webroot/acalog-legacy/shared/htdocs_gateway/ajax/preview_course.php">CS 144 - Advanced C++ Programming</a></li>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=13&amp;poid=7663&amp;returnto=4963#">CS 153 - Concepts of Compiler Design</a></li>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=13&amp;poid=7663&amp;returnto=4963#/usr/local/webroot/acalog-legacy/shared/htdocs_gateway/ajax/preview_course.php">CS 155 - Introduction to the Design and Analysis of Algorithms</a></li>
+<li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=13&amp;poid=7663&amp;returnto=4963#">CS 159 - Introduction to Parallel Processing</a></li>
+</ul>
 
