@@ -4,6 +4,7 @@
 ---
 
 <p>Click the link of the course and scroll to where it shows in the calendar thingy and if you click it there it will give a little description</p>
+<p>Its probably easier to just command F and search the following webpage. Just remember the name of the course.</p>
 <p>Spring 2025</p>
 <ul>
 <li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=10&amp;poid=9238&amp;returnto=4818#/usr/local/webroot/acalog-legacy/shared/htdocs_gateway/ajax/preview_course.php">CS 47 - Introduction to Computer Systems</a></li>
