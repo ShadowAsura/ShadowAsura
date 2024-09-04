@@ -4,7 +4,7 @@
 ---
 
 <p>Click the link of the course and scroll to where it shows in the calendar thingy and if you click it there it will give a little description</p>
-<p>TODO: Add GE ; Junior Year ; Electives (</p>
+<p>TODO: Add GE ; Junior Year ; Electives (Very important)</p>
 <p>Its probably easier to just command F and search the following webpage. Just remember the name of the course.</p>
 <p><strong>Freshman Year</strong></p>
 <p>Spring 2025</p>
