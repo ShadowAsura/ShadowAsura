@@ -4,7 +4,9 @@
 ---
 
 <p>Click the link of the course and scroll to where it shows in the calendar thingy and if you click it there it will give a little description</p>
+<p>TODO: Add GE ; Junior Year ; Electives (</p>
 <p>Its probably easier to just command F and search the following webpage. Just remember the name of the course.</p>
+<p><strong>Freshman Year</strong></p>
 <p>Spring 2025</p>
 <ul>
 <li><a href="https://catalog.sjsu.edu/preview_course_nopop.php?catoid=10&amp;coid=42140">CS 46B - Introduction to Data Structures</a> (4)</li>
@@ -20,6 +22,7 @@
 <ul>
 <li><a href="https://catalog.sjsu.edu/preview_course_nopop.php?catoid=10&amp;coid=42151">CS 146 - Data Structures and Algorithms</a> (3)(Fall maybe)</li>
 </ul>
+<p><strong>Sophmore Year</strong></p>
 <p>Fall 2025</p>
 <ul>
 <li><a href="https://catalog.sjsu.edu/preview_program.php?catoid=10&amp;poid=9238&amp;returnto=4818#/usr/local/webroot/acalog-legacy/shared/htdocs_gateway/ajax/preview_course.php">CS 47 - Introduction to Computer Systems</a> (3)</li>
